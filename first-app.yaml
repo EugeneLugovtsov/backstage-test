@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: first-app
-  description: first-app description
+  name: release-promotion-sample
+  description: CICD tribe release-promotion-sample app
   annotations:
     sonarqube.org/project-key: release-promotion-sample-preview
-    argocd/app-name: release-promotion-sample-app-kops-dev-us-dev
+    argocd/app-selector: ProductComponents=release-promotion-sample
   tags:
     - test
     - my
