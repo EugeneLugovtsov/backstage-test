@@ -5,6 +5,7 @@ metadata:
   description: first-app description
   annotations:
     sonarqube.org/project-key: release-promotion-sample-preview
+    argocd/app-name: release-promotion-sample-app-kops-dev-us-dev
   tags:
     - test
     - my
