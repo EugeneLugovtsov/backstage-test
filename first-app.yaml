@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: first-app
   description: first-app description
+  annotations:
+    sonarqube.org/project-key: release-promotion-sample-preview
   tags:
     - test
     - my
