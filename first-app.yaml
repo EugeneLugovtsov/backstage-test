@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: first-app
+  description: first-app description
+  tags:
+    - test
+    - my
+spec:
+  type: service
+  lifecycle: production
+  owner: user:guest
+  system: github-test
